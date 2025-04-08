@@ -25,6 +25,18 @@ export default {
           800: '#001232',
           900: '#000d26',
         },
+        red: {
+          50: '#fae6eb',
+          100: '#efb0c0',
+          200: '#e88aa1',
+          300: '#dd5476',
+          400: '#d6335c',
+          500: '#cc0033',
+          600: '#ba002e',
+          700: '#910024',
+          800: '#70001c',
+          900: '#560015',
+        },
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

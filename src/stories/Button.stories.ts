@@ -24,3 +24,8 @@ export const Default = Template.bind({})
 Default.args = {
   variant: 'default',
 }
+
+export const Destructive = Template.bind({})
+Destructive.args = {
+  variant: 'destructive',
+}
