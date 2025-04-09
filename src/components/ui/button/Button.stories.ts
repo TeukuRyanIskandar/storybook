@@ -12,7 +12,11 @@ export default {
   },
 } as Meta<typeof Button>
 
-const Template: StoryFn<typeof Button> = (args) => ({
+interface TemplateArgs {
+  variant: string;
+}
+
+const Template: StoryFn<typeof Button> = (args: TemplateArgs) => ({
   components: { Button },
   setup() {
     return { args }
